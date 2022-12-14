@@ -1,0 +1,41 @@
+/* Reset */
+
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+svg,
+video,
+picture {
+    max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utilities */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* General */
