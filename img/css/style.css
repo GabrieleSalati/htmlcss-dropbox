@@ -80,10 +80,16 @@ h4 {
     height: 2vw;
 }
 
+.rule-big {
+    border-bottom:1px solid #646464;
+    width: 8vw;
+    padding-top: 5rem;
+}
+
 ul {
     list-style: none;
     padding: 2rem 0;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 .small-icons {
@@ -486,10 +492,27 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 6rem;
 }
 
 .botcol {
-    background-color: white;
-    height: 400px;
-    width: 200px;
+    color: white;
 }
+
+.botcol-left {
+    color: white;
+    padding-top: 10rem
+}
+
+.language {
+    color: #999896;
+    padding: 2rem 0;
+}
+
+.fa-earth-americas {
+    padding-right: 1rem;
+}
+.fa-caret-up {
+    padding-left: 0.3rem;
+}
+
