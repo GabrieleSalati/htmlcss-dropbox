@@ -20,14 +20,12 @@ picture {
 
 body {
     min-height: 100vh;
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Utilities */
 
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
 }
@@ -39,3 +37,193 @@ body {
 }
 
 /* General */
+
+/* Header style */
+
+.navbar {
+    background-color: orange;
+    display: flex;
+
+    height: 50px;
+}
+
+.navcol-left {
+    flex-basis: 50%;
+    
+    border: 3px dashed black;
+}
+
+.navcol-right {
+    flex-basis: 50%;
+    text-align: right;
+    
+    border: 3px dashed black;
+}
+
+/* Main style */
+
+.big {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    background-color: aquamarine;
+    height: 400px;
+}
+
+.bigcolumns {
+    display: flex;
+    align-items: center;
+}
+
+.bigcol-left {
+    
+    width: 400px;
+    background-color: burlywood;
+    height: 300px;
+    border: 3px dashed black;
+}
+
+.bigcol-right {
+    
+    width: 400px;
+    background-color: burlywood;
+    height: 300px;
+    border: 3px dashed black;
+}
+
+.bigger {
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    height: 700px;
+}
+
+.biggercolumns {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.biggercol {
+    background-color: blueviolet;
+    height: 600px;
+    border: 3px dashed white;
+    width: 200px;
+}
+
+.small {
+    background-color: cornflowerblue;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallcolumns {
+    display: flex;
+    justify-content: center;
+}
+
+.smallcol-left {
+    background-color: crimson;
+    height: 150px;
+    border: 2px dashed black;
+    width: 400px;
+}
+
+.smallcol-right {
+    background-color: crimson;
+    height: 150px;
+    border: 2px dashed black;
+    width: 400px;
+}
+
+.medium {
+    background-color: darkolivegreen;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediumcolumns {
+    display: flex;
+    justify-content: center;
+}
+
+.mediumcol-left {
+    background-color: goldenrod;
+    height: 350px;
+    border: 2px dashed black;
+    width: 400px;
+}
+
+.mediumcol-right {
+    background-color: goldenrod;
+    height: 350px;
+    border: 2px dashed black;
+    width: 400px;
+}
+
+.cards {
+    height: 250px;
+    width: 700px;
+    background-color: azure;
+    border: 3px dashed black;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    border: 3px dashed black;
+}
+
+.members {
+    background-color: darkseagreen;
+    height: 500px;
+
+    display: flex;
+}
+
+.squarebig {
+    flex-basis: 33.3%;
+    border: 3px dashed black;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-row {
+    height: 250px;
+    background-color: blueviolet;
+    border: 3px dashed black;
+}
+
+.questions {
+    flex-direction: column-reverse;
+}
+
+.question {
+    height: 100px;
+    background-color: darkgray;
+}
+
+/* Footer style */
+
+.linkbar {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botcol {
+    background-color: white;
+    height: 400px;
+    width: 200px;
+}
