@@ -48,6 +48,7 @@ body {
     display: inline-block;
     padding: 0.5rem 0.8rem;
     border: 1px solid black;
+    background-color: white;
 }
 
 .description {
@@ -385,15 +386,6 @@ h1 {
     height: 8rem;
 }
 
-.questions {
-    flex-direction: column-reverse;
-}
-
-.question {
-    height: 100px;
-    background-color: darkgray;
-}
-
 .design {
     background-color: #A2D39B;
 }
@@ -425,9 +417,70 @@ h1 {
 .channel {
     background-color: #FFD830;
 }
+
+/* Start trial */
+
+.trial {
+    background-color: #B4D0E7;
+}
+
+.trialbox {
+    width: 60vw;
+    margin-left: 20vw;
+    padding: 8rem 0;
+    position: relative
+}
+
+.trial-button {
+    text-align: right;
+    position: absolute;
+    left: 70%;
+    bottom: 50%;
+    padding: 0.5rem 0.8rem;
+    background-color: white;
+}
+
+.trial-title {
+    color: #61082B;
+}
+
+/* FAQ */
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.faq-title {
+    margin-left: 9vw;
+    margin-bottom: 6rem;
+}
+
+.questions {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.question {
+    padding: 2rem 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.fa-chevron-down{
+    padding-left: 15rem;
+}
+
 /* Footer style */
 
 .linkbar {
+    margin-top: 10rem;
     background-color: black;
     height: 600px;
     display: flex;
