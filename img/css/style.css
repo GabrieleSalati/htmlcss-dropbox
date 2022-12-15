@@ -44,6 +44,10 @@ body {
     color: white;
 }
 
+.description {
+    padding: 2rem 0;
+}
+
 /* General */
 
 /* Header style */
@@ -77,36 +81,54 @@ body {
 
 /* Main style */
 
+/* Jumbotron */
+
 .big {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-    
-    background-color: aquamarine;
-    height: 400px;
+    background-color: #B4D0E7;
+    padding: 1rem;
 }
 
 .bigcolumns {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .bigcol-left {
-    
-    width: 400px;
-    background-color: burlywood;
-    height: 300px;
-    border: 3px dashed black;
+    height: 50vh;
+    width: 30vw;
 }
 
 .bigcol-right {
-    
-    width: 400px;
-    background-color: burlywood;
-    height: 300px;
-    border: 3px dashed black;
+    position: relative;
+    height: 50vh;
+    width: 50vw;
 }
+
+h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    width: 80vw;
+}
+
+.fa-arrow-down {
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+#jumbotron {
+    position: relative;
+    top: 8%;
+}
+
+#undo {
+    padding: 2rem 0;
+}
+
+/* Product cards */
 
 .bigger {
     flex-direction: column;
