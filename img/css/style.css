@@ -20,6 +20,7 @@ picture {
 
 body {
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Utilities */
@@ -36,28 +37,42 @@ body {
     display: table;
 }
 
+.solid-button {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    background-color: #0061FF;
+    color: white;
+}
+
 /* General */
 
 /* Header style */
 
 .navbar {
-    background-color: orange;
     display: flex;
-
-    height: 50px;
+    margin: 0 1rem;
 }
 
 .navcol-left {
     flex-basis: 50%;
-    
-    border: 3px dashed black;
 }
 
 .navcol-right {
-    flex-basis: 50%;
     text-align: right;
-    
-    border: 3px dashed black;
+    flex-basis: 50%;
+}
+
+.navlink {
+    display: inline-block;
+    padding: 1.5rem 1.5rem;
+    color: #646464;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#main-logo {
+    vertical-align: middle;
+    padding: 1.5rem 1.5rem;
 }
 
 /* Main style */
@@ -190,7 +205,7 @@ body {
 }
 
 .squarebig {
-    flex-basis: 33.3%;
+    width: calc(100% / 3);
     border: 3px dashed black;
     background-color: burlywood;
     display: flex;
