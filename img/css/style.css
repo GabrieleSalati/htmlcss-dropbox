@@ -65,12 +65,16 @@ ul {
     line-height: 1.5rem;
 }
 
-h3 {
-    padding: 2rem 0;
-}
-
 .small-icons {
     padding-right: 0.5rem;
+}
+
+p {
+    padding: 0.5rem 0;
+}
+
+h4 {
+    padding: 2rem 0;
 }
 
 /* General */
@@ -137,6 +141,7 @@ h1 {
     font-size: 5rem;
     font-weight: 900;
     width: 80vw;
+    padding: 2rem 0;
 }
 
 .fa-arrow-down {
@@ -219,6 +224,10 @@ h1 {
     padding: 1rem 0;
 }
 
+.card-title {
+    padding: 2rem 0;
+}
+
 .card-main {
     padding: 0 2rem;
 }
@@ -238,37 +247,46 @@ h1 {
 /* Contact card */
 
 .small {
-    background-color: cornflowerblue;
-    height: 200px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 5rem;
 }
 
 .smallcolumns {
     display: flex;
-    justify-content: center;
 }
 
 .smallcol-left {
-    background-color: crimson;
-    height: 150px;
-    border: 2px dashed black;
-    width: 400px;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 30vw;
+    padding: 2rem;
 }
 
 .smallcol-right {
-    background-color: crimson;
-    height: 150px;
-    border: 2px dashed black;
-    width: 400px;
+    text-align: right;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 30vw;
+    padding: 2rem;
 }
+
+.small-header {
+    padding: 1rem;
+    width: 60vw;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+/* Find partner */
 
 .medium {
     background-color: darkolivegreen;
     height: 500px;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .mediumcolumns {
