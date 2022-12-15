@@ -44,12 +44,26 @@ body {
     color: white;
 }
 
+.outlined-button {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid black;
+}
+
 .description {
     padding: 2rem 0;
 }
 
 h2 {
     font-size: 2.5rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+h4 {
+    padding: 0.5rem 0;
 }
 
 .rule-small {
@@ -70,11 +84,7 @@ ul {
 }
 
 p {
-    padding: 0.5rem 0;
-}
-
-h4 {
-    padding: 2rem 0;
+    margin: 2rem 0;
 }
 
 /* General */
@@ -250,7 +260,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .smallcolumns {
@@ -282,11 +292,9 @@ h1 {
 /* Find partner */
 
 .medium {
-    background-color: darkolivegreen;
-    height: 500px;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .mediumcolumns {
@@ -295,18 +303,17 @@ h1 {
 }
 
 .mediumcol-left {
-    background-color: goldenrod;
-    height: 350px;
-    border: 2px dashed black;
-    width: 400px;
+    width: 35vw;
 }
 
 .mediumcol-right {
-    background-color: goldenrod;
-    height: 350px;
-    border: 2px dashed black;
-    width: 400px;
+    width: 25vw;
+    padding: 2rem;
+    margin: 3rem 0;
 }
+
+
+/* Features */
 
 .cards {
     height: 250px;
