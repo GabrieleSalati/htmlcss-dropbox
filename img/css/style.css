@@ -48,6 +48,31 @@ body {
     padding: 2rem 0;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
+.rule-small {
+    background-color: white;
+    border-bottom:2px solid #646464;
+    width: 4vw;
+    height: 2vw;
+}
+
+ul {
+    list-style: none;
+    padding: 2rem 0;
+    line-height: 1.5rem;
+}
+
+h3 {
+    padding: 2rem 0;
+}
+
+.small-icons {
+    padding-right: 0.5rem;
+}
+
 /* General */
 
 /* Header style */
@@ -131,30 +156,93 @@ h1 {
 /* Product cards */
 
 .bigger {
+    margin-top: 10rem;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
-    height: 700px;
 }
 
 .biggercolumns {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    width: 60vw;
+    gap: 3rem;
 }
 
 .biggercol {
-    background-color: blueviolet;
-    height: 600px;
-    border: 3px dashed white;
-    width: 200px;
+    border: 1px solid grey;
+    width: 18vw;
 }
+
+.billing {
+    margin-top: 5rem;
+    width: 60vw;
+}
+
+.checkbox {
+    margin-right: 2.5rem;
+    display: inline-block;
+}
+
+#selected {
+    display: inline-block;
+    border: 5px solid blue;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: middle;
+}
+
+#empty {
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: middle;
+}
+
+.billing-option {
+    padding: 0 1rem;
+    vertical-align: middle;
+}
+
+#business-title {
+     word-spacing: 0.5rem;
+     width: 60vw;
+}
+
+.card-header {
+    width: 17.8vw;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 1rem 0;
+}
+
+.card-main {
+    padding: 0 2rem;
+}
+
+.buy {
+    padding: 2rem 0;
+}
+
+.buy-link {
+    padding-left: 0.5rem;
+}
+
+.fa-check {
+    padding-right: 0.5rem;
+    color: #096AFF;
+}
+/* Contact card */
 
 .small {
     background-color: cornflowerblue;
     height: 200px;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .smallcolumns {
