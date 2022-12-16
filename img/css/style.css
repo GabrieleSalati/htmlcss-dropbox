@@ -42,6 +42,11 @@ body {
     padding: 0.5rem 0.8rem;
     background-color: #0061FF;
     color: white;
+    transform: filter 2s;
+}
+
+.solid-button:hover {
+    filter: opacity(40%);
 }
 
 .outlined-button {
@@ -49,6 +54,11 @@ body {
     padding: 0.5rem 0.8rem;
     border: 1px solid black;
     background-color: white;
+    transform: background-color 2s;
+}
+
+.outlined-button:hover {
+    background-color: lightgrey;
 }
 
 .description {
@@ -106,7 +116,11 @@ p {
 
 .navbar {
     display: flex;
-    margin: 0 1rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .navcol-left {
@@ -126,6 +140,10 @@ p {
     vertical-align: middle;
 }
 
+.navlink:hover {
+    border-bottom: 2px solid darkslategrey;
+}
+
 #main-logo {
     vertical-align: middle;
     padding: 1.5rem 1.5rem;
@@ -141,6 +159,7 @@ p {
     flex-direction: column;
     background-color: #B4D0E7;
     padding: 1rem;
+    margin-top: 5rem;
 }
 
 .bigcolumns {
@@ -169,7 +188,8 @@ h1 {
 
 .fa-arrow-down {
     font-size: 3rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
 }
 
 #jumbotron {
@@ -392,6 +412,11 @@ h1 {
     height: 8rem;
 }
 
+.logos-florida {
+    width: 5rem;
+    height: 5rem;
+}
+
 .design {
     background-color: #A2D39B;
 }
@@ -444,6 +469,11 @@ h1 {
     bottom: 50%;
     padding: 0.5rem 0.8rem;
     background-color: white;
+    transform: background-color 2s;
+}
+
+.trial-button:hover {
+    background-color: lightgrey;
 }
 
 .trial-title {
